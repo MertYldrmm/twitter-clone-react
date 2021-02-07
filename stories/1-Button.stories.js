@@ -7,10 +7,8 @@ export default {
   component: Button,
 };
 
-export const Emoji = () => {
-  return(
+export const Emoji = () => (
     <Button>
-      ANANAMK
+      SAVE
     </Button>
-  )
-};
+)
