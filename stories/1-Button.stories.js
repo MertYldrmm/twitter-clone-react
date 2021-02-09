@@ -4,7 +4,7 @@ import Button from '../components/button'
 import NavigationButton from '../components/navigation-button'
 import Navigation from '../components/navigation'
 import { Home } from '../components/icons'
-import TitleBold from '../components/title-bold'
+import TitleBold from '../components/text-title'
 
 export default {
   title: 'Buttons'
