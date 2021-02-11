@@ -12,7 +12,7 @@ function NavigationButton({ notify, selected, children, ...probs }) {
       {...probs}
     >
       {children}
-      {notify && <span className={styles.notify}>{notify}</span>}
+      {notify > 0 && <span className={styles.notify}>{notify}</span>}
     </Button>
   )
 }
