@@ -11,8 +11,8 @@ function NavigationButton({ notify, selected, children, ...probs }) {
       className={cn(styles.navButton, selected && styles.navButtonSelected)}
       {...probs}
     >
-      {children}
       {notify > 0 && <span className={styles.notify}>{notify}</span>}
+      {children}
     </Button>
   )
 }
