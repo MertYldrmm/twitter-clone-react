@@ -5,11 +5,11 @@ import Button from './button'
 
 import styles from './theme-button.module.css'
 
-function ThemeButton({ className, children, big = false, ...probs }) {
+function ThemeButton({ className, children, big = false, ...props }) {
   return (
     <Button
       className={cn(styles.button, big && styles.bigButton, className)}
-      {...probs}
+      {...props}
     >
       {children}
     </Button>

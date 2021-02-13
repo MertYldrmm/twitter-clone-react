@@ -3,11 +3,11 @@ import cn from 'classnames'
 
 import styles from './text-body.module.css'
 
-function TextBody({ bold = false, className, children, ...probs }) {
+function TextBody({ bold = false, className, children, ...props }) {
   return (
     <span
       className={cn([styles.body, bold && styles.bold, className])}
-      {...probs}
+      {...props}
     >
       {children}
     </span>
